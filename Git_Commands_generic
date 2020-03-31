@@ -1,0 +1,17 @@
+git version  : Print the version of the git
+
+git config --global user.name "Abe Lincoln" : Add user to global
+
+git config --global user.email "mrabe@git.training" : Add email to global
+
+git config --global --list : List all global variables set
+
+git clone github-https-url # paste in your GitHub HTTPS clone URL : Clone Project from Git Repository to Local
+
+git status : List the unchecked and modified files.
+
+git add start.txt : Add the file to staging area
+
+git commit -m "Adding start text file" : Commit the file to local repository
+
+git push origin master : Pushes all the commited file to Remote respository to master branch.
