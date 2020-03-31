@@ -1,3 +1,10 @@
+references :
+
+https://marklodato.github.io/visual-git-guide/index-en.html
+https://git-scm.com/book/en/v2
+
+*************************************************************************************
+
 git version  : Print the version of the git
 
 git config --global user.name "Abe Lincoln" : Add user to global
