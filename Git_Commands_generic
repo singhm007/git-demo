@@ -18,7 +18,29 @@ git clone github-https-url # paste in your GitHub HTTPS clone URL : Clone Projec
 git status : List the unchecked and modified files.
 
 git add start.txt : Add the file to staging area
+git add ./git add s* : add all the files modified and untracked into staging area.
 
 git commit -m "Adding start text file" : Commit the file to local repository
 
 git push origin master : Pushes all the commited file to Remote respository to master branch.
+
+git log : Displays the commit log history
+fit log --filename : displays logs for filename 
+
+git diff : displays the difefrences b/w working directory and staging area
+git diff --staged : displays difference b/w staged area and last commit
+
+git rm filename : remove filename from working area as well as staged area
+
+
+git checkout --filename : copy/replace most recent filename from staging area to working directory.
+
+git checkoout commit_id --filename : copies filename from that snapshot to working and staging area.
+
+git reset HEAD filename : unstaged filename. Copy/replace most recent filename from commit/history to staging area.
+
+.gitignore : put any file.directory ot be ignored by git. Git will not track any file/directory which is listed in this file.
+
+
+
+
