@@ -6,6 +6,16 @@ https://git-scm.com/book/en/v2
 https://www.youtube.com/watch?v=FyAAIHHClqI - David Mahler youtube video
 
 *************************************************************************************
+=> Git stores changes as Snapshots, Not Differences
+=> Nearly Every Operation Is Local
+=> The mechanism that Git uses for this checksumming is called a SHA-1 hash
+=> Git has three main states that your files can reside in: 
+	modified(Working area) ,staged(indexed), and committed(history):
+
+
+
+
+*****I*****************************************************************************
 
 git version  : Print the version of the git
 
