@@ -3,6 +3,8 @@ references :
 https://marklodato.github.io/visual-git-guide/index-en.html
 https://git-scm.com/book/en/v2
 
+https://www.youtube.com/watch?v=FyAAIHHClqI - David Mahler youtube video
+
 *************************************************************************************
 
 git version  : Print the version of the git
@@ -40,6 +42,50 @@ git checkoout commit_id --filename : copies filename from that snapshot to worki
 git reset HEAD filename : unstaged filename. Copy/replace most recent filename from commit/history to staging area.
 
 .gitignore : put any file.directory ot be ignored by git. Git will not track any file/directory which is listed in this file.
+
+=======================================================
+
+git log --all --decorate --oneline --graph
+alias graph="git log --all --decorate --oneline --graph" => creating alias for using it later
+
+git branch SDN - Create branch
+git branch auth
+
+git branch - list all branches
+ 
+git checkout SDN => checking out branch for working on it.
+
+git add s1 ; git commit -m "SDN for s1" => add and commit in single line
+ 
+git diff master..SDN => shows diff b/w master and SDN branch
+ 
+
+git merge SDN  - Merges SDN into master(Fast Forward) . Need be in master branch.
+
+git branch --merged : List merged branch 
+
+git branch -d SDN : Deletes specified branch
+
+git merge auth 
+
+
+===============================
+
+git remote -v : List remote repository path.
+
+git fetch origin : Fetches the commit from remote to local
+
+git merge origin/master : Merges the remote to local.
+
+git pull => git fetch + git merge : Avoid this command, sometimes results in unexpected results
+
+git remote add upstream 'location ' : upstream is alias name like origin.Adding remote with some alias . 
+
+git remote remove upstream  : removing the remote 
+
+
+
+
 
 
 
