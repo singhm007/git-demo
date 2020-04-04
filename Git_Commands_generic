@@ -3,6 +3,8 @@ references :
 https://marklodato.github.io/visual-git-guide/index-en.html
 https://git-scm.com/book/en/v2
 
+https://freenode.net (#git or #github channel)
+
 https://www.youtube.com/watch?v=FyAAIHHClqI - David Mahler youtube video
 
 *************************************************************************************
@@ -16,6 +18,14 @@ https://www.youtube.com/watch?v=FyAAIHHClqI - David Mahler youtube video
 
 
 *****I*****************************************************************************
+git help <verb> => git help config
+git <verb> --help => git config --help
+man git-<verb>
+
+git add -h => more concise “help” output(with -h option)
+
+
+*****************************************************************************
 
 git version  : Print the version of the git
 
@@ -92,6 +102,12 @@ git pull => git fetch + git merge : Avoid this command, sometimes results in une
 git remote add upstream 'location ' : upstream is alias name like origin.Adding remote with some alias . 
 
 git remote remove upstream  : removing the remote 
+
+================================================
+
+ git config --list --show-origin : Shows all the setting 
+
+
 
 
 
