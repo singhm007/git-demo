@@ -25,7 +25,7 @@ man git-<verb>
 git add -h => more concise “help” output(with -h option)
 
 
-*****************************************************************************
+***********************************************************************************
 
 git version  : Print the version of the git
 
